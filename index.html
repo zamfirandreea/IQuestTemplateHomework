@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lusterko</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <div class="row row-justify">
+                <section class="top-bar__section">
+                    <a href="mailto:name@email.com" class="top-bar__link">
+                        <i class="fa fa-envelope top-bar__link--icon"></i>
+                        <span class="top-bar__link--value">name@email.com</span>
+                    </a>
+                    <button class="top-bar__search--button" type="submit">
+                        <i class="fa fa-search top-bar__link--icon"></i>
+                    </button>
+                    <input class="top-bar__search--input" type="text" placeholder="Search..." name="search">
+                </section>
+                <section class="top-bar__section social-media">
+                        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook top-bar__link--icon"></i></a>
+                        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter top-bar__link--icon"></i></a>
+                        <a href="http://www.plus.google.com" target="_blank"><i class="fab fa-google-plus-g top-bar__link--icon"></i></a>
+                        <a href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube top-bar__link--icon"></i></a>
+                    </section>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="row row-justify">
+                <img src="images/logo.png" alt="Logo" class="nav-bar__logo">
+                <ul class="nav-bar__menu">
+                        <li class="nav-bar__item"><a class="nav-bar__link active" href="#">Wpisy</a></li>
+                        <li class="nav-bar__item"><a class="nav-bar__link" href="#">Recenzje</a></li>
+                        <li class="nav-bar__item"><a class="nav-bar__link" href="#">Swatche</a></li>
+                        <li class="nav-bar__item"><a class="nav-bar__link" href="#">Zapowiedzi</a></li>
+                        <li class="nav-bar__item"><a class="nav-bar__link" href="#">Poradniki</a></li>
+                        <li class="nav-bar__item"><a class="nav-bar__link" href="#">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="news-bar">
+        <div class="container">
+                <section class="news-bar__left">
+                    <i class="fas fa-star"></i>
+                    <span class="news-bar__left--item">HOT News</span>
+                </section>
+                <section class="news-bar__middle">
+                    <p class="news-bar__middle--item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    rhoncus enim ut libero facilisis... <a href="#" class="news-bar__middle--link">Read more</a></p>
+                </section>
+                <section class="news-bar__right">
+                    <i class="fas fa-circle news-bar__icon"></i>
+                    <i class="far fa-circle news-bar__icon"></i>
+                    <i class="far fa-circle news-bar__icon"></i>
+                </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="article main-article">
+                <section class="article__info main-article__info">
+                    <h3 class="article__header">
+                        <i class="fas fa-trophy article-icon"></i>TOP 10: Lorem ipsum dolor
+                    </h3>
+                    <p class="article__subtitle">L. Ipsum</p>
+                    <p class="article__intro">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                        fringilla tincidunt lacinia. Proin condimentum quam non.
+                    </p>
+                    <p class="article__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                        fringilla tincidunt lacinia. Proin condimentum quam non turpis
+                        porttitor scelerisque. Nunc vitae libero faucibus tellus
+                        porttitor gravida. Vestibulum gravida volutpat nunc, et finibus
+                        neque varius nec ...
+                        <a href="#" class="article__link">Read more</a>
+                    </p>       
+                </section>
+                <img src="images/image1.png" alt="Top news image" class="image">
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-flex">
+        <div class="secondary-articles">
+
+            <div class="small-article-row">
+                <article class="article small-article">
+                    <img src="images/image2.png" alt="Article Image 1" class="image">
+                    <section class="article__info">
+                        <h4 class="article__header">
+                            <i class="fas fa-paint-brush article-icon"></i>Lorem
+                                ipsum dolor sit amet
+                        </h4>
+                        <p class="article__subtitle">L. Ipsum</p>
+                        <p class="article__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis fringilla tincidunt lacinia. Proin ...
+                                <a href="#" class="article__link">Read more</a>
+                        </p>
+                        </section>
+                </article>
+
+                <article class="article small-article">
+                        <img src="images/image3.png" alt="Article Image 2" class="image">
+                        <section class="article__info">
+                            <h4 class="article__header">
+                                <i class="fas fa-paper-plane article-icon"></i>Lorem
+                                ipsum dolor sit amet
+                            </h4>
+                            <p class="article__subtitle">L. Ipsum</p>
+                            <p class="article__content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Duis fringilla tincidunt lacinia. Proin ...
+                                <a href="#" class="article__link">Read more</a>
+                            </p>
+                        </section>
+                    </article>
+            </div>
+
+            <article class="article full-article">
+                    <img src="images/image6.png" alt="Article Image 3" class="image">
+                    <section class="article__info">
+                        <h3 class="article__header">
+                            <i class="fas fa-trophy article-icon"></i>RECENZJA: Lorem ipsum dolor
+                        </h3>
+                        <p class="article__subtitle">L. Ipsum</p>
+                        <p class="article__intro">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Duis fringilla tincidunt lacinia. Proin condimentum quam non
+                            turpis porttitor scelerisque.
+                        </p>
+                        <p class="article__content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Duis fringilla tincidunt lacinia. Proin condimentum quam non
+                            turpis porttitor scelerisque. Nunc vitae libero faucibus
+                            tellus porttitor gravida. Vestibulum gravida volutpat nunc,
+                            et finibus neque varius nec. Vestibulum gravida volutpat nunc,
+                            et finibus neque varius nec. Vestibulum gravida volutpat nunc,
+                            et finibus neque varius nec. Suspendisse tincidunt ...
+                            <a href="#" class="article__link">Read more</a>
+                        </p>
+                    </section>
+                    <section class="article__details">
+                        <span class="article__details--left">
+                            <i class="fas fa-clock details-icon"></i> 16 December 2018
+                        </span>
+                        <span class="article__details--right">
+                            <i class="fas fa-heart details-icon"></i>206 Likes
+                            <i class="fas fa-comment details-icon comment-icon"></i>18 Comments
+                        </span>
+                    </section>
+                </article>
+
+                <div class="small-article-row">
+                        <article class="article small-article">
+                            <section class="article__info">
+                                <h4 class="article__header">
+                                    <i class="fas fa-paint-brush article-icon"></i>Lorem
+                                    ipsum dolor sit amet
+                                </h4>
+                                <p class="article__subtitle">L. Ipsum</p>
+                                <p class="article__content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Duis fringilla tincidunt lacinia. Proin condimentum quam non
+                                    turpis porttitor scelerisque. Nunc vitae libero faucibus
+                                    tellus porttitor gravida. Vestibulum gravida volutpat nunc,
+                                    et finibus neque varius nec. Suspendisse tincidunt.Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                                    fringilla tincidunt lacinia. Proin condimentum quam non
+                                    turpis porttitor scelerisque ...
+                                    <a href="#" class="article__link">Read more</a>
+                                </p>
+                            </section>
+                        </article>
+        
+                        <article class="article small-article">
+                            <img src="images/image7.png" alt="Article Image 4" class="image">
+                            <section class="article__info">
+                                <h4 class="article__header">
+                                    <i class="fas fa-thumbs-up article-icon"></i>Lorem
+                                    ipsum dolor sit amet
+                                </h4>
+                                <p class="article__subtitle">L. Ipsum</p>
+                                <p class="article__content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Duis fringilla tincidunt lacinia. Proin condimentum quam non
+                                    turpis porttitor ...
+                                    <a href="#" class="article__link">Read more</a>
+                                </p>
+                            </section>
+                        </article>
+                    </div>
+        </div>
+
+        <aside class="secondary-articles-aside">
+                <article class="article profile-article">
+                    <img src="images/image4.png" alt="Article Image 5" class="image">
+                    <img src="images/avatar.png" alt="Article 4 Image" class="image-round" />
+                    <section class="profile-article__info">
+                        <p class="profile-article__header">Ewlina Kowalska</p>
+                        <p class="article__subtitle profile-article__subtitle">Blogger, Youtuber</p>
+                        <p class="profile-article__intro">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</p>
+                        <p class="profile-article__content">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit. Duis
+                            fringilla tincidunt lacinia. Proin condimentum quam non
+                            turpis.
+                        </p>
+                        <hr class="separator" />
+                        <div class="profile-article__details">
+                            <p>1698 <span class="profile-article__details--item">following</span></p>
+                            <p>257 <span class="profile-article__details--item">followers</span></p>
+                        </div>
+                    </section>
+                </article>
+    
+                <article class="article quotes-article">
+                    <section class="article__info">
+                        <h4 class="article__header">
+                            <i class="fas fa-comment article-icon"></i>Lorem
+                            ipsum dolor
+                        </h4>
+                        <hr class="separator" />
+                        <p class="quotes-article__content">
+                            <i class="fas fa-quote-right quote-icon quote-icon--right"></i>Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Duis fringilla
+                            tincidunt lacinia. Proin condimentum quam non
+                            turpis.<i class="fas fa-quote-left quote-icon quote-icon--left"></i>
+                            <br /><br /><a href="#" class="article__link">Read more</a>
+                        </p>
+                        <hr class="separator" />
+                        <p class="quotes-article__content">
+                            <i class="fas fa-quote-right quote-icon quote-icon--right"></i>Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit. Duis fringilla
+                            tincidunt lacinia. Proin condimentum quam non turpis porttitor
+                            scelerisque. Nunc vitae libero faucibus tellus porttitor
+                            gravida.<i class="fas fa-quote-left quote-icon quote-icon--left"></i>
+                            <br /><br /><a href="#" class="article__link">Read more</a>
+                        </p>
+                        <hr class="separator" />
+                        <p class="quotes-article__content">
+                            <i class="fas fa-quote-right quote-icon quote-icon--right"></i>Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit.<i class="fas fa-quote-left quote-icon quote-icon--left"></i>
+                            <br /><br /><a href="#" class="article__link">Read more</a>
+                        </p>
+                    </section>
+                </article>
+    
+                <article class="article newsletter-article">
+                    <h4 class="article__header">
+                        <i class="fas fa-edit article-icon"></i> Newsletter
+                    </h4>
+                    <p class="newsletter-article__content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                        fringilla tincidunt lacinia.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="text" name="email" id="email" placeholder="E-mail..." />
+                        <button type="submit" name="newsletter_button" value="submitted" class="newsletter-btn">
+                            <i class="fas fa-check-circle submit-icon"></i>
+                        </button>
+                    </form>
+                </article>
+    
+            </aside>
+
+    </div>
+
+    <footer class="page-footer">
+            <div class="container">
+                <div class="row row-justify">
+                    <ul class="page-footer__menu">
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Wpisy</a></li>
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Recenzje</a></li>
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Swatche</a></li>
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Zapowiedzi</a></li>
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Poradniki</a></li>
+                        <li class="page-footer__item"><a class="page-footer__link" href="#">Kontakt</a></li>
+                    </ul>
+                    <p class="page-footer__copyright">&copy; Copyright 2018 - All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>
